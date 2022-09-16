@@ -27,7 +27,8 @@ body{
     object-fit: cover;
 }
  .name{
-    font-size: 30px;
+    font-family: 'Ms Madi', cursive;
+    font-size: 42px;
     color: #fff;
  }
 
