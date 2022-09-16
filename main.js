@@ -84,6 +84,7 @@ const params = new URLSearchParams(window.location.search);
 ///select dom element
 const avatarDom = document.querySelector(".avatar");
 const nameDom = document.querySelector(".name");
+const titleDom = document.querySelector("title");
 const btnsDom = document.querySelectorAll(".btn"); 
 
 //get name params from url
@@ -96,6 +97,7 @@ const memberInfo = infos.find((item) => item.id === memberNameUrl);
 // assign value to dom
 avatarDom.setAttribute("src", memberInfo.image);
 nameDom.innerHTML = memberInfo.name;
+titleDom.innerText = memberInfo.name;
 
 console.log(Array.from(btnsDom));
 for(var btnDom of btnsDom){
