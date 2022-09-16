@@ -63,6 +63,7 @@ const infos = [
   },
   {
     id: "Ngan",
+    git: "https://github.com/huyngan",
     name: "Huỳnh Thanh Ngân",
     image: "assets/profile/Ngan.jpg",
     face: "https://www.facebook.com/cinnamilk.n",
